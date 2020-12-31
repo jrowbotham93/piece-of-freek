@@ -5,11 +5,11 @@ const Nav = () => {
   return (
     <nav>
       {/* TODO: once style approved we can make this more dry */}
-      <NavItem href="/shops" label="shops" />
-      <NavItem href="/review" label="review" />
-      <NavItem href="/history" label="history" />
-      <NavItem href="/contact" label="contact" />
-      <NavItem href="/about" label="about" />
+      <NavItem location="shops" label="shops" />
+      <NavItem location="review" label="review" />
+      <NavItem location="history" label="history" />
+      <NavItem location="contact" label="contact" />
+      <NavItem location="about" label="about" />
     </nav>
   );
 };

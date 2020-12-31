@@ -1,10 +1,9 @@
 import { ApolloClient, InMemoryCache, gql } from "@apollo/client";
+
 import { Layout } from "../components";
 
 export default function Index({ ...rest }) {
-  return (
-    <Layout data={rest}/>
-  );
+  return <Layout data={rest} />;
 }
 
 const client = new ApolloClient({
