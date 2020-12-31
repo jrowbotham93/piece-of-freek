@@ -1,0 +1,68 @@
+
+/* reusable variables */
+:root{
+    --base-font-size: 1.6em;
+
+    --small-font-size: 1.2em;
+    --normal-font-size: 2.0em;
+    --large-font-size: 2.4em;
+}
+
+/* globals */
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-size: var(--base-font-size);
+  font-weight: 300;
+  letter-spacing: .01em;
+  line-height: 1.6;
+}
+/* layout */
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+}
+
+.grid{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 2fr 1fr;
+}
+
+.main{
+    overflow: scroll;
+}
+
+section{
+    border: blue solid thin;
+
+}
+
+nav{
+    border: black solid thin;
+    height: 100%;
+    width: 100%;
+}
+
+.card{
+    border: black solid thin;
+    height: 500px;
+    width: 300px;
+}
+
+.flex{
+    display: flex;
+}
+.flex-center{
+    justify-content: center;
+}
